@@ -12,10 +12,10 @@
 
     <ul>
         <?php
-        for ($number = 200; $number >= 0; $number -= 12) {
-            echo '<li>' . 'Enfin !!!!' . '</li>';
-        }
-        ?></ul>
+        for ($number = 200; $number >= 0; $number -= 12): ?>
+        <li>Enfin !!!!</li>
+        <?php endfor; ?>
+    </ul>
 </body>
 
 </html>
